@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            display:flex;
+            justify-content: start;
+            justify-content: end;
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+            justify-content: center;
+            align-items: start;
+            align-items: end;
+            align-items: center;
+            background-color: #333333;
+
+
+            justify-content: end;
+            align-items: start;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: mediumorchid;
+            padding: 1rem;
+            margin: 1rem ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bg{
+            background-color: rgb(26, 126, 79);
+            color: white;
+            padding: .5rem;
+            margin: .3rem;
+        }
+        
+    </style>
+</head>
+<body>
+    
+   <!-- <h1 class="bg">h1</h1>
+   <h2 class="bg">h2</h2>
+   <h3 class="bg">h3</h3>
+   <h4 class="bg">h4</h4>
+   <h5 class="bg">h5</h5>
+   <h6 class="bg">h6</h6>
+   <ul class="bg">UL</ul>
+   <p class="bg">P</p>
+   <span class="bg">span</span>
+   <a href="" classcontainer">="bg">Anchor</a>
+   <button class="bg">Button</button>
+   <li class="bg">list item</li>
+   <input type="text" class="btn" style="background-color: red;">
+    <img width="100" src="https://images.unsplash.com/photo-1719937206300-fc0dac6f8cac?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="not loading"> -->
+
+
+
+
+    <div class="container">
+        <div class="box" id="box-1">Box 1</div>
+        <div class="box" id="box-2">Box 2</div>
+        <div class="box" id="box-3">Box 3</div>
+        <div class="box" id="box-4">Box 4</div>
+    </div>
+</body>
+</html>
